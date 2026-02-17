@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --packs-red: #c41e3a;
+  --packs-red-dark: #a01830;
+  --packs-gray: #374151;
+  --packs-gray-light: #6b7280;
+}
+
+body {
+  @apply bg-white text-packs-gray antialiased;
+}
